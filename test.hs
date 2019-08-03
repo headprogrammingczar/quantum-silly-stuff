@@ -26,6 +26,6 @@ main = do
               b2 <- measQbit bit1
               pure (b1, b2)
     pure v
-  let factors' = [factors] --group (sort factors)
+  let factors' = group (sort factors)
   let factors'' = map (\fs -> (head fs, length fs)) factors'
   print factors''
