@@ -10,7 +10,7 @@ Vagrant.configure("2") do |config|
     config.vm.synced_folder ".", "/vagrant", type: "sshfs"
     node.vm.provision "shell", inline: provision
     node.vm.provider "virtualbox" do |v|
-      v.memory = 2048
+      v.memory = 4096
     end
   end
 end
