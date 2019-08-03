@@ -1,11 +1,16 @@
 {-# LANGUAGE StandaloneDeriving, FlexibleInstances #-}
-import QIO.QExamples
+import QIO.Heap
 import QIO.QArith
-import QIO.Shor
-import QIO.Qio
-import QIO.QioSyn
+import QIO.QExamples
 import QIO.QIORandom
+import QIO.Qdata
+import QIO.Qft
+import QIO.Qio
+import QIO.QioClass
+import QIO.QioSyn
+import QIO.Shor
 import QIO.Vec
+import QIO.VecEq
 import Control.Monad
 import Data.List
 
