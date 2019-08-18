@@ -1,0 +1,49 @@
+False/False
+StateQ {
+  free = 2,
+  pureState = VecEqL {
+    unVecEqL = [
+      (fromList [((Qbit:0),True),
+      (fromList [((Qbit:0),True),((Qbit:1),True)],0.4999999999999999 :+ 0.0),
+      fromList [((Qbit:0),True),((Qbit:1),False)],0.4999999999999999 :+ 0.0),
+      fromList [((Qbit:0),False),((Qbit:1),False)],0.4999999999999999 :+ 0.0),
+      fromList [((Qbit:0),False),((Qbit:1),True)],0.4999999999999999 :+ 0.0)]
+  }
+}
+
+False/True
+StateQ {
+  free = 2,
+  pureState = VecEqL {
+    unVecEqL = [
+      (fromList [((Qbit:0),True),((Qbit:1),True)],(-0.4999999999999999) :+ (-0.0)),
+      fromList [((Qbit:0),True),((Qbit:1),False)],0.4999999999999999 :+ 0.0),
+      fromList [((Qbit:0),False),((Qbit:1),False)],0.4999999999999999 :+ 0.0),
+      fromList [((Qbit:0),False),((Qbit:1),True)],(-0.4999999999999999) :+ (-0.0))]
+  }
+}
+
+True/False
+StateQ {
+  free = 2,
+  pureState = VecEqL {
+    unVecEqL = [
+      (fromList [((Qbit:0),True),((Qbit:1),False)],(-0.4999999999999999) :+ (-0.0)),
+      fromList [((Qbit:0),True),((Qbit:1),True)],(-0.4999999999999999) :+ (-0.0)),
+      fromList [((Qbit:0),False),((Qbit:1),True)],0.4999999999999999 :+ 0.0),
+      fromList [((Qbit:0),False),((Qbit:1),False)],0.4999999999999999 :+ 0.0)]
+  }
+}
+
+True/True
+StateQ {
+  free = 2,
+  pureState = VecEqL {
+    unVecEqL = [
+      (fromList [((Qbit:0),True),((Qbit:1),False)],(-0.4844562108553223) :+ (-0.12370197962726144)),
+      fromList [((Qbit:0),True),((Qbit:1),True)],0.4844562108553223 :+ 0.12370197962726144),
+      fromList [((Qbit:0),False),((Qbit:1),True)],(-0.4844562108553223) :+ (-0.12370197962726144)),
+      fromList [((Qbit:0),False),((Qbit:1),False)],0.4844562108553223 :+ 0.12370197962726144)]
+  }
+}
+
