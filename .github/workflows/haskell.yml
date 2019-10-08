@@ -1,4 +1,4 @@
-name: Haskell CI
+name: Haskell CI copied properly instead of what github gives you by default
 
 on: [push]
 
